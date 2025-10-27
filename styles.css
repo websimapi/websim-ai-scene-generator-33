@@ -125,6 +125,10 @@ h2, h3 {
     transition: opacity 0.2s;
 }
 
+.transparent-toggle:hover {
+    background-color: transparent;
+}
+
 .transparent-toggle.toggled-on img {
     opacity: 0.5;
 }
